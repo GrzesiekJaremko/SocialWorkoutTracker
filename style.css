@@ -1,0 +1,568 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff; 
+    line-height: 1.6;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212; 
+    color: #ffffff; 
+    line-height: 1.6;
+    padding: 16px;
+    display: -webkit-flex; 
+    display: flex; 
+    -webkit-flex-direction: column; 
+    flex-direction: column; 
+    -webkit-align-items: center;
+    align-items: center; 
+    min-height: 100vh;
+}
+
+/* Greeting Container */
+.greeting-container {
+    display: -webkit-flex; 
+    display: flex; 
+    -webkit-align-items: center; 
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+/* Profile Picture */
+.profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #1e90ff; 
+    margin-right: 10px; 
+}
+
+/* Search Form */
+.search-form {
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-align-items: center; 
+    align-items: center; 
+    -webkit-flex-grow: 1; 
+    flex-grow: 1; 
+    margin-right: 10px; 
+}
+
+/* Search Input */
+.search-form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    background-color: #1e1e1e; 
+    color: #ffffff;
+    font-size: 1rem;
+    height: 50px; 
+    -webkit-appearance: none; 
+    appearance: none; 
+}
+
+/* Search Button (Visible on Desktop) */
+.search-button {
+    padding: 12px 16px;
+    background-color: #1e90ff; 
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 50px; 
+    margin-left: 8px; 
+    -webkit-appearance: none; 
+    appearance: none; 
+}
+
+.search-button:hover {
+    background-color: #0077cc;
+}
+
+.nav-links {
+    display: -webkit-flex; 
+    display: flex; 
+    -webkit-align-items: center; 
+    align-items: center; 
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    white-space: nowrap; 
+    margin-left: 10px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hide Search Button on Mobile Devices */
+@media (max-width: 600px) {
+    .search-button {
+        display: none; 
+    }
+
+    .search-form input[type="text"] {
+        margin-right: 0; 
+    }
+
+    .greeting-container {
+        -webkit-flex-wrap: wrap; 
+        flex-wrap: wrap; 
+    }
+
+    .profile-pic {
+        margin-bottom: 8px; 
+    }
+
+    .nav-links {
+        margin-top: 8px; 
+    }
+}
+
+/* Greeting Message */
+.greeting-message {
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 24px; 
+}
+
+/* Workout Plans Section */
+.workout-list {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.workout-list p {
+    text-align: center;
+    color: #cccccc;
+    margin-bottom: 16px;
+}
+
+/* Workout Plan Button */
+.plan-btn {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    background-color: #1e1e1e; 
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.plan-btn:hover {
+    background-color: #2e2e2e; 
+}
+
+.action-buttons {
+    display: none; 
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.action-buttons a {
+    padding: 8px 16px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.action-buttons a:hover {
+    background-color: #0077cc; 
+}
+
+.action-buttons .del-btn {
+    background-color: #ff4444;
+}
+
+.action-buttons .del-btn:hover {
+    background-color: #cc0000; 
+}
+
+/* Add Workout Plan Button */
+#add-plan-button {
+    width: 100%;
+    padding: 16px;
+    background-color: #1e90ff; 
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+#add-plan-button:hover {
+    background-color: #0077cc; 
+}
+
+/* Add Workout Plan Form */
+#add-plan-form {
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+#add-plan-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+#add-plan-form button {
+    padding: 8px 16px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 8px;
+}
+
+#add-plan-form button[type="button"] {
+    background-color: #333333;
+}
+
+/* Log Out Button */
+.logout-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.logout-btn {
+    padding: 12px 24px;
+    background-color: #ff4444; 
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background-color: #cc0000; 
+}
+
+/* Hide Search Button on Mobile Devices */
+@media (max-width: 600px) {
+    .search-button {
+        display: none; 
+    }
+
+    .search-form input[type="text"] {
+        margin-right: 0; 
+    }
+
+    .greeting-container {
+        gap: 8px; 
+    }
+
+    .nav-links {
+        gap: 8px; 
+    }
+}
+
+/* Add Another Workout Plan Button */
+.add-plan-button {
+    width: 100%;
+    padding: 16px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.add-plan-button:hover {
+    background-color: #0077cc; 
+}
+
+/* Cancel Button */
+.cancel-button {
+    width: 100%;
+    padding: 16px;
+    background-color: #ff4444; 
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.cancel-button:hover {
+    background-color: #cc0000; 
+}
+
+/* Workout Plan Item */
+.plan-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+/* Top Section with Back Arrow and Plan Name */
+.top-section {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px;
+}
+
+.top-section .arrow {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.top-section h1 {
+    margin: 0; 
+    font-size: 1.5rem; 
+}
+
+/* Workout List Styling */
+.workout-list {
+    width: 100%;
+}
+
+.workout-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.workout-list li {
+    margin-bottom: 10px;
+}
+
+.plan-btn {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.plan-btn:hover {
+    background-color: #2e2e2e;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.action-buttons a {
+    padding: 8px 16px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.action-buttons a:hover {
+    background-color: #0077cc;
+}
+
+.action-buttons .del-btn {
+    background-color: #ff4444;
+}
+
+.action-buttons .del-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Add Workout Form Styling */
+#add-workout-form {
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: none; 
+}
+
+#add-workout-form input[type="text"],
+#add-workout-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+#add-workout-form button {
+    padding: 8px 16px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Add a New Workout Button */
+.add-plan-button {
+    width: 100%;
+    padding: 16px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.add-plan-button:hover {
+    background-color: #0077cc;
+}
+
+/* Input box styling */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    -webkit-appearance: none; 
+    appearance: none;
+}
+
+/* Hide up/down arrows in number inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Button styling */
+.log-set-button, .end-session-button {
+    width: 100%;
+    padding: 16px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.log-set-button:hover, .end-session-button:hover {
+    background-color: #0077cc; 
+}
+
+.end-session-button {
+    background-color: #008080;
+}
+
+.end-session-button:hover {
+    background-color: #006666; 
+}
+
+/* Delete button styling */
+.delete-button {
+    background-color: #ff4444; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-button:hover {
+    background-color: #cc0000; 
+}
+
+.greybtn{
+    background-color: #6c757d; 
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .greybtn:hover{
+    background-color:rgb(76, 83, 88); 
+  }
