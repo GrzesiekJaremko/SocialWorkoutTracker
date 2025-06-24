@@ -133,23 +133,6 @@ Through building this app, I developed strong foundations in:
 |  └── /profile_pictures/       | Directory containing profile images                |
 |  └── default.jpg              | Default profile image for new users                |
 
-## ⚙️ Setup Instructions
-Clone the repository
-
-git clone https://github.com/yourusername/social-workout-tracker.git
-
-Set up the database
-
-Import the provided .sql file into your MySQL database
-
-Update DB credentials in the config file
-
-Run locally
-
-Use XAMPP, MAMP, or any PHP-supported local server
-
-Visit localhost/social-workout-tracker in your browser
-
 ## 👋 About Me
 I'm an aspiring full-stack developer with a passion for fitness and creating tools that drive real-world results. This project represents a major learning milestone in both frontend and backend development, and I’m proud of what I’ve built-Mistakes included!
 
