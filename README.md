@@ -122,17 +122,17 @@ Through building this app, I developed strong foundations in:
 | ├── `search_result.php`       | Displays results from a user search                |
 | ├── `usersplan.php`           | Handles logic for displaying a user’s workout plan |
 | ├── `view_workout_plan.php`   | View details and workouts under a specific plan    |
-| ├── `style.css`               | Global and page-specific styling |
+| ├── `style.css`               | Global and page-specific styling                   |
 | ├── `script.js`               | Core JS logic and page-specific behavior           |
-| /assets/ | Static images and icons |
-| ├── arrow.png | Navigation or back arrow icon |
-| ├── messages.png | Icon for the messaging system |
-| ├── friends.png | Icon for friends section |
-| ├── logo.png | Application logo |
+| /assets/                      | Static images and icons                            |
+|  └── arrow.png                | Navigation or back arrow icon                      |
+|  └── messages.png             | Icon for the messaging system                      |
+|  └── friends.png              | Icon for friends section                           |
+|  └── logo.png                 | Application logo                                   |
 
-| /uploads/ | Uploaded media (profile images, etc.) |
-| └── /profile_pictures/ | Directory containing profile images |
-| └── default.jpg | Default profile image for new users |
+| /uploads/                     | Uploaded media (profile images, etc.)              |
+|  └── /profile_pictures/       | Directory containing profile images                |
+|  └── default.jpg              | Default profile image for new users                |
 
 ## ⚙️ Setup Instructions
 Clone the repository
