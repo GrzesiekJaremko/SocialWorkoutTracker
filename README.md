@@ -1,15 +1,15 @@
-💪 Social Workout Tracker
+#💪 Social Workout Tracker
 A full-featured social fitness web app that empowers users to track their workouts, customize training plans, connect with friends, and compare progress — all in one mobile-optimized experience.
 
-🚀 Features
-👤 User Accounts & Profiles
+##🚀 Features
+##👤 User Accounts & Profiles
 Secure signup and login system
 
 Customizable profiles and avatars
 
 Private stat pages (viewable only by you or your friends)
 
-📅 Workout Tracking
+##📅 Workout Tracking
 Create fully custom Workout Plans (e.g., Push Day, Pull Day)
 
 Add detailed Workouts with sets, reps, and weights
@@ -22,7 +22,7 @@ Personal records (PRs)
 
 Total sets and sessions completed
 
-📊 Progress Graphs
+##📊 Progress Graphs
 Visualize your performance over time with dynamic charts
 
 Filter by 3 months, 6 months, 12 months, or All Time
@@ -31,7 +31,7 @@ Helps users stay motivated and goal-driven
 
 Metrics include total volume, frequency, and personal bests
 
-👯 Social Features
+##👯 Social Features
 Search for users and send friend requests
 
 Friends must accept before you can share data
@@ -44,7 +44,7 @@ Send direct messages
 
 Compare lifts and session history
 
-🌐 How to Access the Demo
+##🌐 How to Access the Demo
 Experience the full functionality of the Social Workout Tracker by logging in with the demo credentials below:
 
 Login: Demo-account
@@ -61,7 +61,7 @@ Explore the social features (search, friend requests, messaging)
 
 View your progress graphs
 
-📱 Recommended Usage
+##📱 Recommended Usage
 This is a mobile-first web app, and it's best experienced on a smartphone.
 
 🔗 Visit the app on mobile - https://workouttracker.free.nf/
@@ -70,7 +70,7 @@ This is a mobile-first web app, and it's best experienced on a smartphone.
 
 🖥️ You can also explore it on desktop for development review
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 | Technology | Role                          |
 | ---------- | ----------------------------- |
 | PHP        | Backend/server logic          |
@@ -80,7 +80,7 @@ This is a mobile-first web app, and it's best experienced on a smartphone.
 
 Progress charts are rendered using client-side JavaScript libraries like Chart.js.
 
-🧠 What I Learned
+##🧠 What I Learned
 Through building this app, I developed strong foundations in:
 
 Authentication and session handling
@@ -97,7 +97,7 @@ UX considerations for fitness users
 
 I also gained firsthand experience in maintaining and debugging a growing codebase. Some files — particularly CSS and JS — are written page-specifically rather than modularly. While this was a learning step, I now understand the importance of clean, scalable structure and will apply that in future work.
 
-📂 Project Structure
+##📂 Project Structure
 | Path                          | Description                                        |
 | ----------------------------- | -------------------------------------------------- |
 | `/htdocs/`                    | **Main app directory** (root folder)               |
@@ -134,7 +134,7 @@ I also gained firsthand experience in maintaining and debugging a growing codeba
 | └── /profile_pictures/ | Directory containing profile images |
 | └── default.jpg | Default profile image for new users |
 
-⚙️ Setup Instructions
+##⚙️ Setup Instructions
 Clone the repository
 
 git clone https://github.com/yourusername/social-workout-tracker.git
@@ -151,8 +151,8 @@ Use XAMPP, MAMP, or any PHP-supported local server
 
 Visit localhost/social-workout-tracker in your browser
 
-👋 About Me
+##👋 About Me
 I'm an aspiring full-stack developer with a passion for fitness and creating tools that drive real-world results. This project represents a major learning milestone in both frontend and backend development, and I’m proud of what I’ve built-Mistakes included!
 
-Let’s connect:
+#Let’s connect:
 📧 jaremkog@icloud.com · 💼 https://grzesiekjaremko.github.io/
