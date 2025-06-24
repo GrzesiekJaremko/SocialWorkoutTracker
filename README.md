@@ -10,39 +10,39 @@ A full-featured social fitness web app that empowers users to track their workou
 - Private stat pages (viewable only by you or your friends)
 
 ## 📅 Workout Tracking
-Create fully custom Workout Plans (e.g., Push Day, Pull Day)
+- Create fully custom Workout Plans (e.g., Push Day, Pull Day)
 
-Add detailed Workouts with sets, reps, and weights
+- Add detailed Workouts with sets, reps, and weights
 
-Automatically tracks your:
+- Automatically tracks your:
 
-Last gym session
+- Last gym session
 
-Personal records (PRs)
+- Personal records (PRs)
 
-Total sets and sessions completed
+- Total sets and sessions completed
 
 ## 📊 Progress Graphs
-Visualize your performance over time with dynamic charts
+- Visualize your performance over time with dynamic charts
 
-Filter by 3 months, 6 months, 12 months, or All Time
+- Filter by last month, 3 months, 6 months, 12 months, or All Time
 
-Helps users stay motivated and goal-driven
+- Helps users stay motivated and goal-driven
 
-Metrics include total volume, frequency, and personal bests
+- Metrics include total volume, frequency, and personal bests
 
 ## 👯 Social Features
-Search for users and send friend requests
+- Search for users and send friend requests
 
-Friends must accept before you can share data
+- Friends must accept before you can share data
 
-Once connected:
+- Once connected:
 
-View each other’s workout history and stats
+- View each other’s workout history and stats
 
-Send direct messages
+- Send direct messages
 
-Compare lifts and session history
+- Compare lifts and session history
 
 ## 🌐 How to Access the Demo
 Experience the full functionality of the Social Workout Tracker by logging in with the demo credentials below:
@@ -53,13 +53,13 @@ Password: D3m0nStrat10n
 
 Feel free to:
 
-Create workout plans
+- Create workout plans
 
-Log exercises and sessions
+- Log exercises and sessions
 
-Explore the social features (search, friend requests, messaging)
+- Explore the social features (search, friend requests, messaging)
 
-View your progress graphs
+- View your progress graphs
 
 ## 📱 Recommended Usage
 This is a mobile-first web app, and it's best experienced on a smartphone.
@@ -83,19 +83,19 @@ Progress charts are rendered using client-side JavaScript libraries like Chart.j
 ## 🧠 What I Learned
 Through building this app, I developed strong foundations in:
 
-Authentication and session handling
+- Authentication and session handling
 
-Mobile-first responsive design
+- Mobile-first responsive design
 
-Real-time data visualization (graphs)
+- Real-time data visualization (graphs)
 
-CRUD operations and relational database design
+- CRUD operations and relational database design
 
-Social systems (friends, privacy, messaging)
+- Social systems (friends, privacy, messaging)
 
-UX considerations for fitness users
+- UX considerations for fitness users
 
-I also gained firsthand experience in maintaining and debugging a growing codebase. Some files — particularly CSS and JS — are written page-specifically rather than modularly. While this was a learning step, I now understand the importance of clean, scalable structure and will apply that in future work.
+- I also gained firsthand experience in maintaining and debugging a growing codebase. Some files — particularly CSS and JS — are written page-specifically rather than modularly. While this was a learning step, I now understand the importance of clean, scalable structure and will apply that in future work.
 
 ## 📂 Project Structure
 | Path                          | Description                                        |
