@@ -129,7 +129,6 @@ Through building this app, I developed strong foundations in:
 |  └── messages.png             | Icon for the messaging system                      |
 |  └── friends.png              | Icon for friends section                           |
 |  └── logo.png                 | Application logo                                   |
-
 | /uploads/                     | Uploaded media (profile images, etc.)              |
 |  └── /profile_pictures/       | Directory containing profile images                |
 |  └── default.jpg              | Default profile image for new users                |
