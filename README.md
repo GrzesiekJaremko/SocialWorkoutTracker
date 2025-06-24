@@ -3,11 +3,11 @@ A full-featured social fitness web app that empowers users to track their workou
 
 ## 🚀 Features
 ## 👤 User Accounts & Profiles
-Secure signup and login system
+- Secure signup and login system
 
-Customizable profiles and avatars
+- Customizable profiles and avatars
 
-Private stat pages (viewable only by you or your friends)
+- Private stat pages (viewable only by you or your friends)
 
 ## 📅 Workout Tracking
 Create fully custom Workout Plans (e.g., Push Day, Pull Day)
