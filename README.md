@@ -143,5 +143,5 @@ https://www.linkedin.com/in/greg-jaremko-594739291/
 📧 Email: 
 jaremkog@icloud.com 
 
-💼 Github:
+💼 Portfolio:
 https://grzesiekjaremko.github.io/
