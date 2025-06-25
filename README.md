@@ -1,7 +1,7 @@
 # 💪 Social Workout Tracker
 A full-featured social fitness web app that empowers users to track their workouts, customize training plans, connect with friends, and compare progress — all in one mobile-optimized experience.
 
-# 🚀 Features
+# 🚀 Features:
 ## 👤 User Accounts & Profiles
 - Secure signup and login system
 
