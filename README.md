@@ -137,4 +137,8 @@ Through building this app, I developed strong foundations in:
 I'm an aspiring full-stack developer with a passion for fitness and creating tools that drive real-world results. This project represents a major learning milestone in both frontend and backend development, and I’m proud of what I’ve built-Mistakes included!
 
 # Let’s connect:
-👔 https://www.linkedin.com/in/greg-jaremko-594739291/ · 📧 jaremkog@icloud.com · 💼 https://grzesiekjaremko.github.io/
+👔 https://www.linkedin.com/in/greg-jaremko-594739291/ 
+
+📧 jaremkog@icloud.com 
+
+💼 https://grzesiekjaremko.github.io/
